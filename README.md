@@ -30,3 +30,16 @@ Step 2:
    - example : VITE_VARIABLENAME = "TEST VALUE"
    - to access: console.log(import.meta.env.VITE_APPWRITE_URL)
 
+step 3
+1. create appwrite account
+2. create new project 
+3. goto setting and copy endpoint which is act as your appwrite project url and copy project id too
+4. goto database and create database and copy its id as database id
+5. create collection and copy its id as collection id
+6. in collection goto settings and give permission to all users for create read write and update.
+7. then create storage bucket and copy paste his id.
+
+step 4 : (industry practise)
+- create separate conf folder and conf file to access all env variable easily
+- define separte conf object and access all env variable as string for backend validations.
+- access this file in you other react app.
