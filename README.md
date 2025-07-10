@@ -18,5 +18,15 @@ install and setup react project with vite and  all necassary package
 - npm i @reduxjs/toolkit react-redux react-router-dom appwrite @tinymce/tinymce-react html-react-parser react-hook-form[packages]
 
 Step 2:
-Environment variables - because we have to manage all the api keys and system variables in production.
+- Environment variables - because we have to manage all the api keys and system variables in production.
+- just add .env file in root context (outside src)
+- and in .env file write your variable in key value pairs
+- there are different way to access these variable in backend and front end.
+  
+1. if you create react app with react create app then your .env file will have REACT_APP_VARIABLENAME prefix
+   - example : REACT_APP_VARIABLENAME = "TEST VALUE"
+   - to access: console.log(process.env.REACT_APP_VARIABLENAME)
+2. if you create react app with vite then .env file will have VITE_VARIABLENAME prefix
+   - example : VITE_VARIABLENAME = "TEST VALUE"
+   - to access: console.log(import.meta.env.VITE_APPWRITE_URL)
 
