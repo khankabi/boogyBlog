@@ -54,3 +54,7 @@ step 5 : Setup Authentication
 step 6 : setup appwrite configuration with storage and bucket
 - config.js
 - same as authentication step setup with class structure.
+
+step 7: Redux toolkit
+- youtube.com/watch?v=DnRY5yG67u8 tutorial for redux react
+- setup reduc toolkit with store, slicers and reducers

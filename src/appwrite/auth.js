@@ -39,8 +39,8 @@ export class AuthService {
     //from -> https://appwrite.io/docs/references/cloud/client-web/account
     async getCurrentUser() {
         try {
-            const result = await this.account.get();
-            return result
+            const userData = await this.account.get();
+            return userData
         } catch (error) {
             console.log("Appwrite service :: getCurrentUser :: Error", error);
         }
@@ -63,4 +63,4 @@ export class AuthService {
 }
 const authService = new AuthService();
 
-export default AuthService;
+export default authService;
