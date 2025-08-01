@@ -49,3 +49,8 @@ step 5 : Setup Authentication
 - appwrite/ auth.js 
 - and create further authentication services in this file 
 - signup, signin, logout, getCurrentUser Like that so all of your services comes under one hood.
+
+
+step 6 : setup appwrite configuration with storage and bucket
+- config.js
+- same as authentication step setup with class structure.
