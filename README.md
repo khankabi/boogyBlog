@@ -43,3 +43,9 @@ step 4 : (industry practise)
 - create separate conf folder and conf file to access all env variable easily
 - define separte conf object and access all env variable as string for backend validations.
 - access this file in you other react app.
+
+step 5 : Setup Authentication 
+- create authService class for idustry level development
+- appwrite/ auth.js 
+- and create further authentication services in this file 
+- signup, signin, logout, getCurrentUser Like that so all of your services comes under one hood.
