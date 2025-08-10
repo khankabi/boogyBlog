@@ -10,7 +10,7 @@ function App() {
 
   //Loading State - Productin Grade Thing
   const [loading, setLoading] = useState(true)
-  const dispatch = useDispatch
+  const dispatch = useDispatch()
 
   useEffect(() => {
     authService.getCurrentUser()

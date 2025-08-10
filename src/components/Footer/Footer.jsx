@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../Logo'
-//https://github.com/hiteshchoudhary/chai-aur-react/blob/main/12MegaBlog/src/components/Footer/Footer.jsx
 
 function Footer() {
   return (
